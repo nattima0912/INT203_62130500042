@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V Live</title>
+
+    <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+    <!-- Using via Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- https://tailwindcss.com/docs/installation -->
+    <!-- Using Tailwind via CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+    <!-- Vue CDN -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+
+    <div id="app" class="h-screen w-screen mx-auto overflow-y-scroll ">
+
+        <div class="flex  cursor-pointer">
+            <div class=" flex px-8 py-4 transform hover:scale-110  ">
+                <img class="h-8 w-8 " src=".\images\v-live.png">
+                <p class="text-2xl font-black pl-2">VLIVE</p>
+            </div>
+            <p class="text-base px-5 py-5 hover:underline ">
+                หน้าแรก
+            </p>
+            <p class="text-base px-5 py-5 hover:underline">
+                ช่อง
+            </p>
+            <p class="text-base px-5 py-5 hover:underline">
+                กิจกรรม
+            </p>
+            <p class="text-base px-5 py-5 hover:underline">
+                สโตร์
+            </p>
+            <div class="flex text-left px-5 py-3 transform hover:scale-110 ">
+                <img class="h-10 w-10 " src=".\images\v-live2.png">
+                <p class="text-xs text-gray-500 font-bold pl-1 py-1">Beyond<br />LIVE</p>
+            </div>
+
+            <div class="w-3/6  flex items-center justify-end">
+                <i class="material-icons  hover:bg-gray-200 rounded-lg pr-4 pl-4 py-2">search</i>
+                <p class="text-sm pl-4 pr-4 py-2 hover:bg-gray-200 rounded-lg">ลงชื่อเข้าใช้</p>
+                <div class="relative pl-3 text-base ">
+                    <select class="cursor-pointer  transform hover:scale-110 ">
+                        <option>English</option>
+                        <option>한국어</option>
+                        <option>ภาษาไทย</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="border  border-gray-600 py-12 bg-gray-600">
+            <p class="text-4xl text-blue-400 font-bold text-center py-1">กิจกรรม</p>
+            <p class="text-sm text-blue-400 font-medium text-center">พบกับข่าวคราวล่าสุดและกิจกรรมของ V LIVE ได้ที่นี่
+            </p>
+        </div>
+
+        <div class=" flex transform hover:scale-110  ">
+            <img class="pl-20 py-10 cursor-pointer " src=".\images\pic1.jpg">
+            <div class="border-2 md:border-t-1  mt-10 mb-10">
+                <p class="text-xl pt-6 pl-5 pr-8 tracking-tight hover:underline cursor-pointer ">Beyond LIVE - SUPER
+                    JUNIOR 15th Anniversary Special<br />Event – 초대(Invitation)</p>
+                <p class="text-sm pt-1 pl-5 text-gray-400 tracking-tight">03.11.2020 - 07.11.2020</p>
+                <p class="text-xs pt-2 pl-5">11/7 (SAT) 17:00 (KST) Welcome to online-fanmeeting of SuperJunior's
+                    15th<br />anniversary!</p>
+            </div>
+        </div>
+
+        <div class="flex transform hover:scale-110  ">
+            <img class="pl-20 mb-20 mt-0 cursor-pointer " src=".\images\pic2.jpg">
+            <div class="border-2 md:border-t-1  mt-0 mb-20">
+                <p class="text-xl pt-6 pl-5 pr-8 tracking-tight hover:underline cursor-pointer">Heart 4 U - CHANYEOL
+                    Membership!</p>
+                <p class="text-sm pt-1 pl-5 text-gray-400 tracking-tight">06.10.2020 - 25.12.2020</p>
+                <p class="text-xs pt-4 pl-5 pr-14 ">เข้าร่วม 'Heart 4 U - CHANYEOL' MEMBERSHIP ตอนนี้
+                    แล้วพบกับตอนหลักล่วงหน้าสอง<br />สัปดาห์!</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
